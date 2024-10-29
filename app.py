@@ -1,10 +1,8 @@
 import streamlit as st
 import joblib
-import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
 stemmer = SnowballStemmer("english", ignore_stopwords=True)
