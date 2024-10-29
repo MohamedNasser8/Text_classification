@@ -5,6 +5,10 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk.tokenize import word_tokenize
 import pandas as pd
 
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
 stemmer = SnowballStemmer("english", ignore_stopwords=True)
 
 stop_words = set(stopwords.words("english"))
