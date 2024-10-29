@@ -1,3 +1,4 @@
+import nltk
 import streamlit as st
 import joblib
 from nltk.corpus import stopwords
